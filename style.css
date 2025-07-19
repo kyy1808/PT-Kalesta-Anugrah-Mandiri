@@ -1,0 +1,52 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: url('images/proyek.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(234, 221, 221);
+    min-height: 100vh;
+
+.background-overlay {
+  background-color: rgba(0, 0, 0, 0.65); /*transparasi gelap*/
+  min-height: 100vh;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section h2 {
+  font-size: 24px;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
